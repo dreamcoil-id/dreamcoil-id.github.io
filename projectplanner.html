@@ -1,0 +1,246 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/foundation-icons.css">
+  </head>
+  <body>
+
+    <div class="projectplanner">
+    
+      <div class="row header">
+        <div class="small-12 medium-4 columns">
+          <p class="text-left">
+            <a href="index.html"><img src="assets/img/logo-dreamcoil.png" width="50%" height="auto" alt="" /></a>
+          </p>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <p class="text-center quicksand-gray" style="font-size:1.5em;">
+            PROJECT PLANNER
+          </p>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <p class="text-right">
+              <a href="#" class="menu-icon"></a>
+          </p>
+        </div>
+      </div>
+    
+      <div class="fast-response">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="quicksand text-center bold">
+              Need faster response?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 medium-6 columns">
+            <p class="quicksand-gray text-right">
+              Phone: +62 857-2907-7872
+            </p>
+          </div>
+          <div class="small-12 medium-6 columns">
+            <p class="quicksand-gray text-left">
+              Email: <span class="orange">dreamcoil.dev@gmail.com</span>
+            </p>
+          </div>
+        </div>
+    
+      </div>
+    
+    
+    
+      <div class="form-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">
+              <h4 class="quicksand text-center" style="font-weight:bold;">Tell us about yourself first</h4>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div data-abide-error class="alert callout" style="display: none;">
+            <p><i class="fi-alert"></i> Fill the form correctly to let us help you better :)</p>
+          </div>
+          <div class="small-12 large-4 columns">
+              <p class="quicksand-gray bold">Name</p>
+              <input type="text" aria-describedby="exampleHelpText" class="custom-form" required>
+              <span class="form-error">
+                We need your name to simplify our communication
+              </span>
+          </div>
+          <div class="small-12 large-4 columns">
+            <p class="quicksand-gray bold">Email</p>
+              <input type="text" aria-describedby="exampleHelpText" class="custom-form" required-pattern="email">
+              <span class="form-error">
+                We need your e-mail to simplify our communication
+              </span>
+          </div>
+          <div class="small-12 large-4 columns">
+            <p class="quicksand-gray bold">Phone Number</p>
+              <input type="text" aria-describedby="exampleHelpText" class="custom-form" required-pattern="number">
+              <span class="form-error">
+                We need your name to simplify our communication
+              </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="form-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">
+              <h4 class="quicksand text-center" style="font-weight:bold;">What type of project you had in mind?</h4>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 medium-4 columns">
+            <a class="alert expanded button">Design</a>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <a class="alert expanded button">Development</a>
+          </div>
+          <div class="small-12 medium-4 columns">
+            <a class="alert expanded button">Strategy</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="form-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">
+              <h4 class="quicksand text-center" style="font-weight:bold;">Describe your project briefly</h4>
+            </p>
+          </div>
+          <div class="small-12 columns">
+              <p class="quicksand-gray bold">Describe it here!</p>
+              <textarea class="custom-form"></textarea>
+          </div>
+        </div>
+      </div>
+    
+      <div class="form-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">
+              <h4 class="quicksand text-center" style="font-weight:bold;">When</h4>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-12 large-6 columns">
+            <div class="row">
+              <div class="small-12 columns text-center">
+                <span class="quicksand-gray bold">Begin</span>
+              </div>
+            </div>
+            <div class="row" id="dp">
+                <div class="small-12 large-6 columns">
+                  <select class="custom-form">
+                    <option value="husker">January</option>
+                    <option value="starbuck">February</option>
+                    <option value="hotdog">March</option>
+                    <option value="apollo">April</option>
+                    <option value="husker">May</option>
+                    <option value="starbuck">June</option>
+                    <option value="hotdog">July</option>
+                    <option value="apollo">August</option>
+                    <option value="husker">September</option>
+                    <option value="starbuck">October</option>
+                    <option value="hotdog">November</option>
+                    <option value="apollo">December</option>
+                  </select>
+                </div>
+                <div class="small-12 large-6 columns">
+                  <select class="custom-form">
+                    <option value="husker">2016</option>
+                    <option value="starbuck">2017</option>
+                    <option value="hotdog">2018</option>
+                  </select>
+                </div>
+            </div>
+            <div class="row">
+              <div class="small-12 columns">
+                <a id="dpb" class="alert expanded button">Pick a Month</a>
+              </div>
+              <div class="small-12 columns">
+                <a id="santai" class="alert expanded button">No Huge Rush</a>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="small-12 large-6 columns">
+            <div class="row">
+              <div class="small-12 columns text-center">
+                <span class="quicksand-gray bold">Deadline</span>
+              </div>
+            </div>
+            <div class="row" id="dp2">
+                <div class="small-12 large-6 columns">
+                  <select class="custom-form">
+                    <option value="husker">January</option>
+                    <option value="starbuck">February</option>
+                    <option value="hotdog">March</option>
+                    <option value="apollo">April</option>
+                    <option value="husker">May</option>
+                    <option value="starbuck">June</option>
+                    <option value="hotdog">July</option>
+                    <option value="apollo">August</option>
+                    <option value="husker">September</option>
+                    <option value="starbuck">October</option>
+                    <option value="hotdog">November</option>
+                    <option value="apollo">December</option>
+                  </select>
+                </div>
+                <div class="small-12 large-6 columns">
+                  <select class="custom-form">
+                    <option value="husker">2016</option>
+                    <option value="starbuck">2017</option>
+                    <option value="hotdog">2018</option>
+                  </select>
+                </div>
+            </div>
+            <div class="row">
+              <div class="small-12 columns">
+                <a id="dpb2" class="alert expanded button">Pick a Month</a>
+              </div>
+              <div class="small-12 columns">
+                <a id="santai2" class="alert expanded button">When it's done</a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="form-content">
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">
+              <h4 class="quicksand text-center" style="font-weight:bold;">Finished?</h4>
+            </p>
+          </div>
+          <div class="small-12 columns">
+            <a class="alert expanded button">Submit</a>
+          </div>
+        </div>
+      </div>
+    
+    
+    </div>
+    
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

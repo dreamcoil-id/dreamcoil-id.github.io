@@ -1,0 +1,310 @@
+.quicksand {
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+
+.bold {
+  font-weight: bold;
+  font-size: 1.3em; }
+
+.quicksand-gray {
+  font-family: 'Open Sans', sans-serif;
+  color: gray; }
+
+.orange {
+  color: #ca5623; }
+
+html,
+body {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+a {
+  color: white; }
+
+a:hover {
+  color: white;
+  opacity: 0.5; }
+
+.navigation {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  z-index: 4;
+  margin: 0 auto; }
+
+.wrapper-nav-left {
+  height: 0px !important; }
+
+.wrapper-nav-margin {
+  margin-left: 2%; }
+
+.wrapper-social-right {
+  height: 0px !important; }
+
+/* =================================================================================================================
+====================================================================================================================
+  LANDING PAGE
+  LANDING PAGE
+  LANDING PAGE
+====================================================================================================================
+==================================================================================================================== */
+/* =============================================================================
+  Home
+============================================================================= */
+.home {
+  height: 400px; }
+
+.home-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  z-index: 4;
+  margin: 0 auto; }
+
+.brief-nav {
+  margin-top: 3%; }
+
+.menu-icon {
+  margin-left: 80%; }
+
+.dreamcoil-tagline {
+  margin-top: 5%; }
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+.video-main-banner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+.video-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  background-color: black;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.8;
+  background-repeat: repeat; }
+
+/* =============================================================================
+  Works
+============================================================================= */
+.works {
+  background-image: url("../img/lantekayu-banner.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 653px;
+  position: relative;
+  z-index: 3; }
+
+.works-title, .about-title {
+  margin-top: 5%; }
+
+.works-content > .row {
+  margin-right: 0; }
+
+.works-content > .row > .works-image {
+  padding-right: 0; }
+
+.works-content {
+  margin-top: 5%; }
+
+.works-desc {
+  padding: 5% 5% 5% 0; }
+
+/* =============================================================================
+  Services
+============================================================================= */
+.services {
+  background-color: black;
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3; }
+
+.services-title {
+  margin-top: 5%;
+}
+.services-row{
+  margin-top: 5%;
+}
+.services-content {
+  height: 653px;
+  position: relative;
+ }
+
+ .services-texts{
+  font-size: 27px;
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-weight:bold;
+  width: 100%;
+  margin-top: 28px;
+  display: none;
+ }
+.services-content .video-services, .services-content .services-video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.services-content .services-video-overlay{
+  z-index: 2;
+  background-color: black;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.services > .row > .columns {
+  padding: 0; }
+
+/* =============================================================================
+  About
+============================================================================= */
+.about {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding-bottom: 12%;
+  position: relative;
+  z-index: 3; }
+
+.about-desc, .about-photos {
+  margin-top: 5%; }
+
+.about-content {
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.wrapper-photo {
+  position: relative; }
+
+.caption {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%; }
+
+.caption h3, .caption p {
+  margin: 20px; }
+
+.caption h5 {
+  color: #ca5623;
+  font-weight: bold;
+  margin: 20px 20px 10px; }
+
+.caption p {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 20px 15px; }
+
+.about-social {
+  margin-right: 5%; }
+
+.about-social:hover {
+  opacity: 0.5; }
+
+.caption a.learn-more {
+  padding: 5px 10px;
+  background: #08c;
+  color: #fff;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  font-weight: bold;
+  text-decoration: none; }
+
+.caption a.learn-more:hover {
+  background: #fff;
+  color: #08c; }
+
+/* =============================================================================
+  Contact
+============================================================================= */
+.contact {
+  background-image: url("../img/contactus.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 653px;
+  position: relative;
+  z-index: 3; }
+
+.contact-content-2p {
+  margin-top: 2%; }
+
+.contact-content-5p {
+  margin-top: 5%; }
+
+.contact-content-7p {
+  margin-top: 7%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+/* =============================================================================
+  Copyright
+============================================================================= */
+.copyright {
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  position: relative;
+  z-index: 3; }
+
+.copyright p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+/* =================================================================================================================
+====================================================================================================================
+  PROJECT PLANNER PAGE
+  PROJECT PLANNER PAGE
+  PROJECT PLANNER PAGE
+====================================================================================================================
+==================================================================================================================== */
+.projectplanner {
+  background-color: black;
+  padding: 4% 10% 4% 10%; }
+
+.fast-response {
+  border: 1px solid gray;
+  margin-top: 5%;
+  padding: 4% 10% 4% 10%; }
+
+.form-content {
+  margin-top: 3%; }
+
+.custom-form {
+  border-left: 0;
+  border-top: 0;
+  border-right: 0; }
