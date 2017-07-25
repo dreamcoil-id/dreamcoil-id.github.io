@@ -1,0 +1,22 @@
+{
+  "name": "dreamcoil-id.github.io",
+  "version": "1.0.0",
+  "description": "dreamcoil website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamcoil-id/dreamcoil-id.github.io.git"
+  },
+  "author": "dreamcoil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamcoil-id/dreamcoil-id.github.io/issues"
+  },
+  "homepage": "https://github.com/dreamcoil-id/dreamcoil-id.github.io#readme",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
